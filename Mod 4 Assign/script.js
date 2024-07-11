@@ -4,7 +4,7 @@
 (function () {
 
   // STEP 3: Create an array of names
-  var names = ["Chanel", "Chaundra", "Nyla", "Akyra", "Vanessia", "Beverly", "Kenzo", "TeeJay", "Willistine", "Rosetta","Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+  var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
 
   // STEP 10: Loop over the names array and say either 'Hello' or "Good Bye"
   // using the 'speak' method or either helloSpeaker's or byeSpeaker's 'speak' method.
