@@ -1,7 +1,6 @@
 // STEP 2: Wrap the entire contents of script.js inside of an IIFE
 // See Lecture 52, part 2
-
-(function () {
+(function() {
 
   // STEP 3: Create an array of names
   var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
