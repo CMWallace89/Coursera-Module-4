@@ -6,7 +6,7 @@
   <script>
     var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"]; // DO NOT REMOVE
   </script>
-  <script src="SpeakHello.js"></script>
+   <script src="SpeakHello.js"></script>
   <script src="SpeakGoodBye.js"></script>
   <script src="script.js"></script>
 </head>
