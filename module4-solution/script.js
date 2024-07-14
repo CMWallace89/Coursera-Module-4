@@ -1,6 +1,6 @@
 // STEP 2: Wrap the entire contents of script.js inside of an IIFE
 // See Lecture 52, part 2
-(function() {
+(function(window) {
 
   // STEP 3: Create an array of names
   var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
@@ -14,16 +14,16 @@
     // names that start with either upper case or lower case 'J'/'j', call
     // string object's 'toLowerCase' method on the result so we can compare
     // to lower case character 'j' afterwards.
-    var firstLetter = names[i].charAt(0).toLowerCase();
+    var firstLetter = window.names[i].charAt(0).toLowerCase();
 
     // STEP 12: Compare the 'firstLetter' retrieved in STEP 11 to lower case
     // 'j'. If the same, call byeSpeaker's 'speak' method with the current name
     // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
     // name in the loop.
     if (firstLetter === 'j') {
-      byeSpeaker.speak(names[i]);
+      window.byeSpeaker.speak(window.names[i]);
     } else {
-      helloSpeaker.speak(names[i]);
+      window.helloSpeaker.speak(window.names[i]);
     }
   }
 
